@@ -13,6 +13,7 @@ export default class UberApkSigner extends Tool {
       executeJar(this.jarPath, [
         '--allowResign',
         '--overwrite',
+        '-p 4'
         ...(zipalign ? [] : ['--skipZipAlign']),
         ...pathArgs,
       ]),
