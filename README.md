@@ -34,6 +34,9 @@ If you have an up-to-date version of [Node.js][node] (14+) and [Java][java] (8+)
 
 ```shell
 npm install -g apk-mitm
+
+# install this github version
+npm install -g git+https://github.com/theafien/apk-mitm.git
 ```
 
 ## Usage
